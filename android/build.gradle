@@ -22,10 +22,11 @@ rootProject.allprojects {
     }
 }
 
-apply plugin: 'com.android.library'
+apply plugin: 'org.thitsarparami.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "com.example.flutter_js"
     compileSdkVersion 34
 
     kotlinOptions {
